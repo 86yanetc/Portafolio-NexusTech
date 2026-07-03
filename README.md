@@ -154,7 +154,7 @@ Transformación de outputs técnicos en Narrativa de Negocio. El sistema traduce
 
 ##🌲 Estructura del Directorio
 
-![DIRECTORIO](./imagenes/directorio_nexus.png)
+![DIRECTORIO](./imagenes/directorio_nexus1.png)
 
 ## 🛠️ Especificaciones Técnicas y Pilares de Valor
 
