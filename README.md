@@ -26,6 +26,31 @@ Nexus-Tech no es solo una herramienta de visualización; es un **Ecosistema Mult
 
 **🔮 El Futuro para Prevenir:** Modelos predictivos de Machine Learning que anticipan tendencias, detectan anomalías y mitigan riesgos antes de que impacten al negocio.
 
+## 💡 Decisiones de Ingeniería y Preguntas Clave
+
+En el diseño de Nexus-Tech, se priorizó la creación de un sistema que no solo informara, sino que ejecutara. Estas son las respuestas a los pilares fundamentales de su arquitectura:
+
+### ¿Por qué un enfoque Agéntico (LangGraph) en lugar de un Dashboard tradicional?
+
+La inteligencia de negocios convencional (Power BI/Tableau) es pasiva. Se optó por una arquitectura agéntica por tres razones críticas:
+
+**Democratización del Dato:** Permite que un directivo sin conocimientos técnicos realice análisis complejos mediante lenguaje natural, eliminando la barrera del SQL o Python.
+
+**Capacidad Ejecutiva:** A diferencia de un dashboard estático, el agente puede escribir y ejecutar código en tiempo real, adaptando el análisis a preguntas que no estaban previstas en el diseño original.
+
+**Visión Predictiva Unificada:** El agente orquesta el flujo entre el análisis histórico y los modelos de Machine Learning (XGBoost/Forecasting), uniendo el pasado y el futuro en una sola respuesta coherente.
+
+###¿Por qué mantener el procesamiento 100% Local con Llama-3.1?
+
+Tratándose de Big Data corporativa (ventas, márgenes, datos de clientes), la privacidad es innegociable:
+
+**Seguridad de Activos:** Los datos financieros y estratégicos de la empresa nunca abandonan la infraestructura local, cumpliendo con los estándares más estrictos de cumplimiento y auditoría.
+
+**Latencia de Ejecución:** Al estar el LLM y el motor de ejecución (Python REPL) en el mismo entorno local, se minimizan los tiempos de transferencia de datos masivos.
+
+###¿Cuál fue el desafío técnico más complejo?
+
+El reto principal fue el desarrollo del Self-Healing Loop (Bucle de Autocorrección). Lograr que una IA genere código Python, lo ejecute, capture sus propios errores de sintaxis o de lógica de datos (como inconsistencias en nombres de columnas), y sea capaz de corregirse a sí misma en tiempo real sin intervención humana, fue el hito de ingeniería que permitió pasar de un experimento a una herramienta de producción confiable.
 
 ## 🏗️ Arquitectura del Sistema: Nexus-Tech Intelligent Data Analyst 
 
