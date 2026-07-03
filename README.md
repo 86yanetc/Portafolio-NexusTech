@@ -128,7 +128,7 @@ El motor de ejecución que garantiza una latencia mínima y una gestión de recu
 
 **Gestión Síncrona:** Arquitectura diseñada para proteger el procesador durante las fases intensivas de generación de código y entrenamiento de modelos.
 
-### 3. Cerebro Agéntico (LangGraph Architecture) 🧠
+### 3. Cerebro Agéntico (LangGraph Architecture) 
 
 El núcleo del proyecto utiliza LangGraph para crear un flujo de trabajo cíclico y especializado:
 
@@ -152,3 +152,20 @@ Un entorno de ejecución aislado donde la IA interactúa con los activos de dato
 
 Transformación de outputs técnicos en Narrativa de Negocio. El sistema traduce matrices y arrays en informes ejecutivos enfocados en retorno de inversión (ROI), mitigación de riesgos y oportunidades de mercado.
 
+## 🛠️ Especificaciones Técnicas y Pilares de Valor
+
+### Stack Tecnológico de Vanguardia
+
+El ecosistema ha sido construido utilizando herramientas de última generación para garantizar la privacidad, precisión y escalabilidad local.
+
+**IA Generativa (LLM):** Meta Llama-3.1-8B-Instruct (Cuantización Q4_K_M), optimizado para inferencia en CPU mediante llama-cpp-python.
+
+**Orquestación Agéntica:** LangGraph para el control de estados complejos, lógica cíclica de reintentos (Self-Healing) y enrutamiento dinámico de tareas.
+
+**Machine Learning (Core):** Modelos predictivos basados en XGBoost, Random Forest y LightGBM.
+
+**Optimización de Modelos:** Búsqueda Bayesiana con Optuna para ajuste de hiperparámetros y balanceo de clases mediante SMOTE.
+
+**Ingeniería de Datos:** Pandas y NumPy para manipulación matricial, con SQLite como motor de persistencia de alta velocidad.
+
+**Backend & Interfaz:** FastAPI (Arquitectura asíncrona) y Streamlit (UI ejecutiva).
