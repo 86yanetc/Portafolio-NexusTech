@@ -27,3 +27,59 @@ Nexus-Tech no es solo una herramienta de visualización; es un **Ecosistema Mult
 **🔮 El Futuro para Prevenir:** Modelos predictivos de Machine Learning que anticipan tendencias, detectan anomalías y mitigan riesgos antes de que impacten al negocio.
 
 
+## 🏗️ Arquitectura del Sistema: Nexus-Tech Intelligent Data Analyst 
+
+```mermaid
+graph TD
+    subgraph UI ["💻 CAPA DE USUARIO (Frontend)"]
+        A[Streamlit Dashboard]
+    end
+
+    subgraph API ["⚡ CAPA DE COMUNICACIÓN"]
+        B[FastAPI REST Service]
+    end
+
+    subgraph AGENT ["🧠 ORQUESTACIÓN AGÉNTICA (LangGraph)"]
+        C{Router Node}
+        D[Analytics Programmer]
+        E[Prediction Programmer]
+        F[[Python REPL / Sandbox]]
+        G{Self-Healing Loop}
+        H[Finisher Node / Redactor]
+    end
+
+    subgraph DATA ["💾 CAPA DE DATOS E INTELIGENCIA"]
+        I[(SQLite: ventas_full)]
+        J[Model Zoo: .joblib files]
+        K[Output Folder: .png charts]
+    end
+
+    %% Flujo de la información
+    A -- "Pregunta (Natural Language)" --> B
+    B -- "Invocación de Grafo" --> C
+    
+    C -- "Clasificación: Analytics" --> D
+    C -- "Clasificación: Prediction" --> E
+    
+    D -- "Generación de Código" --> F
+    E -- "Generación de Código" --> F
+    
+    F -- "Consulta / Inferencia" --> I
+    F -- "Carga de Modelos" --> J
+    F -- "Error de ejecución" --> G
+    G -- "Feedback para corrección" --> D & E
+    
+    F -- "Evidencia Técnica / CSV / Log" --> H
+    I -- "Datos Reales" --> F
+    
+    H -- "Informe Ejecutivo (Markdown)" --> B
+    F -- "Generación de Imágenes" --> K
+    K -- "Visualización Dinámica" --> A
+    B -- "Respuesta Final" --> A
+
+    style C fill:#f96,stroke:#333,stroke-width:2px
+    style G fill:#f66,stroke:#333,stroke-width:2px
+    style I fill:#69f,stroke:#333,stroke-width:2px
+    style J fill:#6f9,stroke:#333,stroke-width:2px
+```
+
