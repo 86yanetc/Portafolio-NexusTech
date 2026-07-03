@@ -40,7 +40,7 @@ La inteligencia de negocios convencional (Power BI/Tableau) es pasiva. Se optó 
 
 **Visión Predictiva Unificada:** El agente orquesta el flujo entre el análisis histórico y los modelos de Machine Learning (XGBoost/Forecasting), uniendo el pasado y el futuro en una sola respuesta coherente.
 
-###¿Por qué mantener el procesamiento 100% Local con Llama-3.1?
+### ¿Por qué mantener el procesamiento 100% Local con Llama-3.1?
 
 Tratándose de Big Data corporativa (ventas, márgenes, datos de clientes), la privacidad es innegociable:
 
@@ -48,7 +48,7 @@ Tratándose de Big Data corporativa (ventas, márgenes, datos de clientes), la p
 
 **Latencia de Ejecución:** Al estar el LLM y el motor de ejecución (Python REPL) en el mismo entorno local, se minimizan los tiempos de transferencia de datos masivos.
 
-###¿Cuál fue el desafío técnico más complejo?
+### ¿Cuál fue el desafío técnico más complejo?
 
 El reto principal fue el desarrollo del Self-Healing Loop (Bucle de Autocorrección). Lograr que una IA genere código Python, lo ejecute, capture sus propios errores de sintaxis o de lógica de datos (como inconsistencias en nombres de columnas), y sea capaz de corregirse a sí misma en tiempo real sin intervención humana, fue el hito de ingeniería que permitió pasar de un experimento a una herramienta de producción confiable.
 
