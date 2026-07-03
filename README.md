@@ -91,35 +91,35 @@ La infraestructura de Nexus-Tech ha sido diseñada bajo un paradigma de Intelige
 
 Interfaz No-Code de alto rendimiento que actúa como puente entre el lenguaje natural y el Big Data.
 
-•	Abstracción Técnica: Permite a perfiles C-Level (CEO, CFO, CMO) ejecutar consultas complejas sin conocimientos de SQL o Python.
+**Abstracción Técnica:** Permite a perfiles C-Level (CEO, CFO, CMO) ejecutar consultas complejas sin conocimientos de SQL o Python.
 
-•	Renderizado Dinámico: Sistema de visualización automática que interpreta archivos en la carpeta /output para presentar dashboards generados al vuelo por la IA.
+**Renderizado Dinámico** Sistema de visualización automática que interpreta archivos en la carpeta /output para presentar dashboards generados al vuelo por la IA.
 
 **2. Capa de Orquestación y Comunicación (FastAPI)**
 
 El motor de ejecución que garantiza una latencia mínima y una gestión de recursos eficiente.
 
-•	Persistence Layer: Mantiene una instancia caliente del modelo Llama-3.1-8B, eliminando tiempos de carga en cada consulta.
+**Persistence Layer:** Mantiene una instancia caliente del modelo Llama-3.1-8B, eliminando tiempos de carga en cada consulta.
 
-•	Gestión Síncrona: Arquitectura diseñada para proteger el procesador durante las fases intensivas de generación de código y entrenamiento de modelos.
+**Gestión Síncrona:** Arquitectura diseñada para proteger el procesador durante las fases intensivas de generación de código y entrenamiento de modelos.
 
 **3. Cerebro Agéntico (LangGraph Architecture) 🧠**
 
 El núcleo del proyecto utiliza LangGraph para crear un flujo de trabajo cíclico y especializado:
 
-•	Intelligent Router: Clasificador semántico que decide el flujo de trabajo: Analítica Descriptiva (Pasado) o Ciencia Predictiva (Futuro).
+**Intelligent Router:** Clasificador semántico que decide el flujo de trabajo: Analítica Descriptiva (Pasado) o Ciencia Predictiva (Futuro).
 
-•	Specialized Nodes: Nodos con expertos dedicados. El nodo de Analytics ejecuta leyes de Pareto y segmentación RFM; el nodo de Prediction orquestra algoritmos de Churn, Forecasting y Clustering.
+**Specialized Nodes:** Nodos con expertos dedicados. El nodo de Analytics ejecuta leyes de Pareto y segmentación RFM; el nodo de Prediction orquestra algoritmos de Churn, Forecasting y Clustering.
 
-•	Self-Healing Loop (Autocorrección): Implementación de una capa de resiliencia que detecta fallos en el código generado (errores de sintaxis o columnas faltantes), permitiendo al agente re-escribir y corregir su propia lógica hasta 3 veces antes de entregar resultados.
+**Self-Healing Loop (Autocorrección):** Implementación de una capa de resiliencia que detecta fallos en el código generado (errores de sintaxis o columnas faltantes), permitiendo al agente re-escribir y corregir su propia lógica hasta 3 veces antes de entregar resultados.
 
 **4. Entorno de Computación Segura (Python REPL)**
 
 Un entorno de ejecución aislado donde la IA interactúa con los activos de datos:
 
-•	Data Lake Local (SQLite): Fuente de verdad con más de 100,000 registros indexados para consultas de alta velocidad.
+**Data Lake Local (SQLite):** Fuente de verdad con más de 100,000 registros indexados para consultas de alta velocidad.
 
-•	Joblib Model Repository: Biblioteca de cerebros predictivos pre-entrenados (XGBoost, Random Forest, K-Means) listos para ser invocados por el agente.
+**Joblib Model Repository:** Biblioteca de cerebros predictivos pre-entrenados (XGBoost, Random Forest, K-Means) listos para ser invocados por el agente.
 
 **5. Capa de Entrega de Valor (Business Narrative)**
 
