@@ -152,7 +152,7 @@ Un entorno de ejecución aislado donde la IA interactúa con los activos de dato
 
 Transformación de outputs técnicos en Narrativa de Negocio. El sistema traduce matrices y arrays en informes ejecutivos enfocados en retorno de inversión (ROI), mitigación de riesgos y oportunidades de mercado.
 
-##🌲 Estructura del Directorio
+## 🌲 Estructura del Directorio
 
 ![DIRECTORIO](./imagenes/directorio_nexus1.png)
 
