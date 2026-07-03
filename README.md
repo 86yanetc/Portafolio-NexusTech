@@ -95,7 +95,7 @@ Interfaz No-Code de alto rendimiento que actúa como puente entre el lenguaje na
 
 **Renderizado Dinámico** Sistema de visualización automática que interpreta archivos en la carpeta /output para presentar dashboards generados al vuelo por la IA.
 
-**2. Capa de Orquestación y Comunicación (FastAPI)**
+### 2. Capa de Orquestación y Comunicación (FastAPI)
 
 El motor de ejecución que garantiza una latencia mínima y una gestión de recursos eficiente.
 
@@ -103,7 +103,7 @@ El motor de ejecución que garantiza una latencia mínima y una gestión de recu
 
 **Gestión Síncrona:** Arquitectura diseñada para proteger el procesador durante las fases intensivas de generación de código y entrenamiento de modelos.
 
-**3. Cerebro Agéntico (LangGraph Architecture) 🧠**
+### 3. Cerebro Agéntico (LangGraph Architecture) 🧠
 
 El núcleo del proyecto utiliza LangGraph para crear un flujo de trabajo cíclico y especializado:
 
@@ -113,7 +113,8 @@ El núcleo del proyecto utiliza LangGraph para crear un flujo de trabajo cíclic
 
 **Self-Healing Loop (Autocorrección):** Implementación de una capa de resiliencia que detecta fallos en el código generado (errores de sintaxis o columnas faltantes), permitiendo al agente re-escribir y corregir su propia lógica hasta 3 veces antes de entregar resultados.
 
-**4. Entorno de Computación Segura (Python REPL)**
+
+### 4. Entorno de Computación Segura (Python REPL)
 
 Un entorno de ejecución aislado donde la IA interactúa con los activos de datos:
 
@@ -121,7 +122,8 @@ Un entorno de ejecución aislado donde la IA interactúa con los activos de dato
 
 **Joblib Model Repository:** Biblioteca de cerebros predictivos pre-entrenados (XGBoost, Random Forest, K-Means) listos para ser invocados por el agente.
 
-**5. Capa de Entrega de Valor (Business Narrative)**
+
+### 5. Capa de Entrega de Valor (Business Narrative)
 
 Transformación de outputs técnicos en Narrativa de Negocio. El sistema traduce matrices y arrays en informes ejecutivos enfocados en retorno de inversión (ROI), mitigación de riesgos y oportunidades de mercado.
 
