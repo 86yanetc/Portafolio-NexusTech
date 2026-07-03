@@ -1,6 +1,4 @@
-# Portafolio-NexusTech
-
-# 💎 NEXUS-TECH: Intelligent Data Analyst
+# 💎 Nexus-Tech: Intelligent Data Analyst
 
 **Agente Multi-Agente de Inteligencia de Negocios y Machine Learning.**
 
