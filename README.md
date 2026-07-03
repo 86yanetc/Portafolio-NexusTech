@@ -87,7 +87,7 @@ La arquitectura de Nexus-Tech se basa en un modelo Local-First de capas desacopl
 
 La infraestructura de Nexus-Tech ha sido diseñada bajo un paradigma de Inteligencia Agéntica de Ciclo Cerrado, donde el razonamiento del modelo y la ejecución de código ocurren en un entorno seguro y supervisado.
 
-**1. Capa de Interacción Directiva (Streamlit UI)**
+### 1. Capa de Interacción Directiva (Streamlit UI)
 
 Interfaz No-Code de alto rendimiento que actúa como puente entre el lenguaje natural y el Big Data.
 
