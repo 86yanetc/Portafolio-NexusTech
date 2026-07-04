@@ -176,3 +176,5 @@ El ecosistema ha sido construido utilizando herramientas de última generación 
 
 
 ![ANALISIS1](./imagenes/analisis_1a.png)
+
+![ANALISIS2](./imagenes/analisis_2.png)
