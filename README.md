@@ -292,7 +292,7 @@ Aquí, el agente se transforma en un Científico de Datos, invocando modelos de 
 
 Demostración de la integración con modelos XGBoost/Random Forest. Al solicitar la probabilidad de abandono del 'Cliente_1', el agente realiza ingeniería de atributos en tiempo real (RFM), carga el cerebro predictivo correspondiente y entrega un score de probabilidad junto con una narrativa técnica que explica el 'Valor en Riesgo' de dicho cliente.
 
-##🎯 Conclusión: Resiliencia y Precisión en IA Local##
+## 🎯 Conclusión: Resiliencia y Precisión en IA Local
 
 La culminación de Nexus-Tech valida un hito de ingeniería: la ejecución de flujos de trabajo de Machine Learning y Analítica avanzada de forma totalmente autónoma y local. El mayor valor del proyecto reside en su arquitectura de Especialistas Segregados, que elimina la contaminación de instrucciones y maximiza la fidelidad del código generado.
 
