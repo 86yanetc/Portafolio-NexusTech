@@ -156,6 +156,43 @@ Transformación de outputs técnicos en Narrativa de Negocio. El sistema traduce
 
 ![DIRECTORIO](./imagenes/directorio_nexus2.png)
 
+## 🌐 Infraestructura de Backend: Orquestación con FastAPI
+
+![APIS](./imagenes/Apis.png)
+
+En el ecosistema Nexus-Tech, FastAPI no funciona como un simple servidor de datos, sino como un Unified Intelligence Gateway (Puerta de Enlace de Inteligencia Unificada). Se ha diseñado un único punto de entrada de alto rendimiento que centraliza la complejidad de la arquitectura agéntica.
+
+Sus funciones críticas son:
+
+**1. Punto de Entrada Inteligente (Unified API Gateway)**
+
+El backend expone un endpoint centralizado que recibe consultas en lenguaje natural. Esta arquitectura simplifica la integración con cualquier interfaz (como Streamlit), delegando toda la lógica de decisión al servidor.
+
+**2. Clasificación de Intención en Tiempo Real**
+
+Al recibir la consulta, el microservicio utiliza una capa de lógica heurística para determinar la ruta óptima del dato. FastAPI decide instantáneamente si la petición debe ser procesada por el Módulo de Analítica Descriptiva (Pasado) o el Módulo de Inferencia Predictiva (Futuro).
+
+**3. Gestión de Persistencia del Modelo (Model Hot-Loading)**
+
+El backend asegura que la instancia de Llama-3.1-8B permanezca residente en la memoria. Esto elimina la latencia de carga en cada consulta, permitiendo que el agente responda con la agilidad necesaria para una toma de decisiones ejecutiva.
+
+**4. Orquestación del Bucle de Autocorrección (Self-Healing)**
+
+FastAPI supervisa la ejecución del código generado por la IA en el entorno REPL. Si detecta un error de ejecución, el microservicio no devuelve un fallo al usuario; en su lugar, reinicia el ciclo de LangGraph para que el agente corrija su lógica internamente.
+
+**5. Serialización de Salida Multimodal***
+
+El servicio se encarga de empaquetar de forma estructurada tanto la narrativa de negocio (Markdown) como los artefactos visuales (gráficos de Seaborn/Matplotlib), garantizando que la respuesta llegue lista para ser renderizada por la capa de usuario.
+
+### ✨ ¿Por qué un diseño de "Endpoint Único"?
+
+**Abstracción de Complejidad:** El cliente (frontend) no necesita saber si está hablando con un modelo de Regresión, un algoritmo de Clustering o una base de datos SQL.
+
+**Eficiencia de Recursos:** Centraliza el uso de la CPU para la inferencia de Llama-3, evitando colisiones entre múltiples procesos.
+
+**Escalabilidad Interna:** Permite añadir nuevos "especialistas" en el futuro (ej. un nodo de Finanzas o de RRHH) sin necesidad de modificar la estructura de la API.
+
+
 ## 🛠️ Especificaciones Técnicas y Pilares de Valor
 
 ### Stack Tecnológico de Vanguardia
