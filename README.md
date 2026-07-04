@@ -272,14 +272,12 @@ En este flujo, el agente actúa como un Analista de Datos Senior, traduciendo pr
   <em>Figura 1: Comparativa de Rendimiento Geográfico.</em>
 </div>
 
-
 El agente procesa una solicitud de comparación de ingresos entre nodos regionales (Madrid vs. Barcelona). El sistema no solo recupera los valores numéricos de la base de datos SQLite, sino que genera de forma autónoma el código para renderizar un gráfico comparativo que facilita la interpretación inmediata de la brecha de ingresos.
 
 ![ANALISIS2](./imagenes/analisis_2b.png)
 <div align="center">
   <em>Figura 2: Análisis de Penetración de Producto por Mercado.</em>
 </div>
-
 
 Validación de la capacidad de filtrado y agregación. Ante la pregunta sobre las ventas de "Laptop Pro" en Madrid, el agente realiza un análisis de market-share local comparado con el resto de las ciudades, permitiendo identificar patrones de demanda específicos sin que el usuario tenga que estructurar la consulta técnica.
 
@@ -291,6 +289,5 @@ Aquí, el agente se transforma en un Científico de Datos, invocando modelos de 
 <div align="center">
   <em>Figura 3: Inferencia de Riesgo de Abandono (Churn Scoring).</em>
 </div>
-
 
 Demostración de la integración con modelos XGBoost/Random Forest. Al solicitar la probabilidad de abandono del 'Cliente_1', el agente realiza ingeniería de atributos en tiempo real (RFM), carga el cerebro predictivo correspondiente y entrega un score de probabilidad junto con una narrativa técnica que explica el 'Valor en Riesgo' de dicho cliente.
