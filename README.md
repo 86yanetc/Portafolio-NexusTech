@@ -268,14 +268,14 @@ La interfaz, desarrollada en Streamlit, actúa como una consola de mando estrat�
 En este flujo, el agente actúa como un Analista de Datos Senior, traduciendo preguntas de negocio en consultas SQL complejas y scripts de visualización con Seaborn/Matplotlib.
 
 <p align="center">
-  <img src="./imagenes/analisis_1a.png" width="800"><br>
+  <img src="./imagenes/analisis_1a.png"><br>
   <i><b>Figura 1:</b> Comparativa de Rendimiento Geográfico.</i>
 </p>
 
 El agente procesa una solicitud de comparación de ingresos entre nodos regionales (Madrid vs. Barcelona). El sistema no solo recupera los valores numéricos de la base de datos SQLite, sino que genera de forma autónoma el código para renderizar un gráfico comparativo que facilita la interpretación inmediata de la brecha de ingresos.
 
 <p align="center">
-  <img src="./imagenes/analisis_2b.png" width="800"><br>
+  <img src="./imagenes/analisis_2b.png"><br>
   <i><b>Figura 2:</b> Análisis de Penetración de Producto por Mercado.</i>
 </p>
 
@@ -286,7 +286,7 @@ Validación de la capacidad de filtrado y agregación. Ante la pregunta sobre la
 Aquí, el agente se transforma en un Científico de Datos, invocando modelos de Machine Learning pre-entrenados para evaluar riesgos y oportunidades individuales.
 
 <p align="center">
-  <img src="./imagenes/analisis_3c.png" width="800"><br>
+  <img src="./imagenes/analisis_3c.png"><br>
   <i><b>Figura 3:</b> Inferencia de Riesgo de Abandono (Churn Scoring).</i>
 </p>
 
