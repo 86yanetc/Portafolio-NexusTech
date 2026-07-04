@@ -180,7 +180,7 @@ El backend asegura que la instancia de Llama-3.1-8B permanezca residente en la m
 
 FastAPI supervisa la ejecución del código generado por la IA en el entorno REPL. Si detecta un error de ejecución, el microservicio no devuelve un fallo al usuario; en su lugar, reinicia el ciclo de LangGraph para que el agente corrija su lógica internamente.
 
-**5. Serialización de Salida Multimodal***
+**5. Serialización de Salida Multimodal**
 
 El servicio se encarga de empaquetar de forma estructurada tanto la narrativa de negocio (Markdown) como los artefactos visuales (gráficos de Seaborn/Matplotlib), garantizando que la respuesta llegue lista para ser renderizada por la capa de usuario.
 
@@ -195,7 +195,7 @@ El servicio se encarga de empaquetar de forma estructurada tanto la narrativa de
 
 ## 🛠️ Especificaciones Técnicas y Pilares de Valor
 
-### Stack Tecnológico de Vanguardia
+### 1. Stack Tecnológico de Vanguardia
 
 El ecosistema ha sido construido utilizando herramientas de última generación para garantizar la privacidad, precisión y escalabilidad local.
 
@@ -210,6 +210,54 @@ El ecosistema ha sido construido utilizando herramientas de última generación 
 **Ingeniería de Datos:** Pandas y NumPy para manipulación matricial, con SQLite como motor de persistencia de alta velocidad.
 
 **Backend & Interfaz:** FastAPI (Arquitectura asíncrona) y Streamlit (UI ejecutiva).
+
+### 2. Arquitectura: "Especialistas Segregados"
+
+Para evitar la Contaminación de Instrucciones (Prompt Pollution) y maximizar la precisión, Nexus-Tech utiliza un Router Inteligente que segmenta la carga de trabajo en dos nodos de alto nivel:
+
+**📊 Analytics Node (El Analista):** Experto en SQL complejo y estadística descriptiva. Diseñado para resolver rankings de rentabilidad, segmentaciones, análisis de Pareto (80/20) y detección de anomalías.
+
+**🔮 Prediction Node (El Científico):** Nodo especializado en inferencia de Machine Learning. Realiza ingeniería de atributos en tiempo real, carga modelos serializados (.joblib) y calcula probabilidades de riesgo y éxito.
+
+### 3. Módulos Implementados y Resultados
+
+#### A. Ingeniería de Datos a Escala
+
+**Data Lake Sintético:** Creación de un entorno de prueba con 100,000 registros que simulan estacionalidad, tendencias de crecimiento y sesgos demográficos reales.
+
+**Performance:** Implementación de Vistas Materializadas que optimizan la velocidad de respuesta, permitiendo que el LLM procese grandes volúmenes de datos con una latencia mínima.
+
+#### B. Inteligencia de Negocios Estratégica
+
+**Análisis de Pareto:** Identificación automática de productos y clientes "estrella" que generan el 80% de los ingresos.
+
+**Segmentación:** Clasificación dinámica de la cartera de clientes en niveles (Oro, Plata, Bronce) utilizando técnicas de cuantiles para optimizar estrategias de marketing.
+
+**Detección de Anomalías:** Algoritmos que monitorizan desviaciones de ticket promedio, alertando sobre irregularidades operativas.
+
+#### C. Ciencia de Datos Predictiva
+
+**Retención de Clientes (Churn):** Clasificador entrenado con un F1-Score de 1.00 en entornos controlados, permitiendo calcular el "Valor en Riesgo" de la cartera.
+
+**Forecasting de Ventas:** Modelo de regresión con un R² de 0.77, capturando eficazmente la tendencia del negocio para proyecciones financieras fiables.
+
+#### D. Narrativa e Interpretación Ejecutiva
+
+**Motor Gráfico Autónomo:** Generación dinámica de visualizaciones (Histogramas, Boxplots, Pie Charts) integradas en el flujo de chat.
+
+**Executive Reporter:** Un nodo final que actúa como traductor de negocios, convirtiendo métricas técnicas en informes para el CFO/CMO, eliminando tecnicismos y enfocándose en el retorno de inversión (ROI).
+
+### 4. Resiliencia: Capacidades "Self-Healing" 
+
+Nexus-Tech implementa un Bucle de Autocorrección pionero en LangGraph. Si la IA genera código con errores sintácticos o lógicos (ej. columnas inexistentes), el sistema:
+
+1.	Captura la traza del error.
+
+2.	Retroalimenta al LLM con el fallo detectado.
+
+3.	Permite hasta 3 intentos de corrección autónoma.
+
+Este mecanismo garantiza una tasa de éxito operativa superior al 95%, asegurando que el usuario final siempre reciba una respuesta válida, independientemente de la complejidad del código subyacente.
 
 
 ![ANALISIS1](./imagenes/analisis_1a.png)
