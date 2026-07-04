@@ -173,3 +173,6 @@ El ecosistema ha sido construido utilizando herramientas de última generación 
 **Ingeniería de Datos:** Pandas y NumPy para manipulación matricial, con SQLite como motor de persistencia de alta velocidad.
 
 **Backend & Interfaz:** FastAPI (Arquitectura asíncrona) y Streamlit (UI ejecutiva).
+
+
+![ANALISIS1](./imagenes/analisis_1.png)
