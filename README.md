@@ -175,4 +175,4 @@ El ecosistema ha sido construido utilizando herramientas de última generación 
 **Backend & Interfaz:** FastAPI (Arquitectura asíncrona) y Streamlit (UI ejecutiva).
 
 
-![ANALISIS1](./imagenes/analisis_1.png)
+![ANALISIS1](./imagenes/analisis_1a.png)
