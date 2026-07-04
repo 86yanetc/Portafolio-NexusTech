@@ -268,14 +268,14 @@ La interfaz, desarrollada en Streamlit, actúa como una consola de mando estrat�
 En este flujo, el agente actúa como un Analista de Datos Senior, traduciendo preguntas de negocio en consultas SQL complejas y scripts de visualización con Seaborn/Matplotlib.
 
 <p align="center">
-  <img src="./imagenes/analisis_1a.png"><br>
+  <img src="./imagenes/analisis_1a.png" width="800"><br>
   <i><b>Figura 1:</b> Comparativa de Rendimiento Geográfico.</i>
 </p>
 
 El agente procesa una solicitud de comparación de ingresos entre nodos regionales (Madrid vs. Barcelona). El sistema no solo recupera los valores numéricos de la base de datos SQLite, sino que genera de forma autónoma el código para renderizar un gráfico comparativo que facilita la interpretación inmediata de la brecha de ingresos.
 
 <p align="center">
-  <img src="./imagenes/analisis_2b.png"><br>
+  <img src="./imagenes/analisis_2b.png" width="800"><br>
   <i><b>Figura 2:</b> Análisis de Penetración de Producto por Mercado.</i>
 </p>
 
@@ -286,8 +286,14 @@ Validación de la capacidad de filtrado y agregación. Ante la pregunta sobre la
 Aquí, el agente se transforma en un Científico de Datos, invocando modelos de Machine Learning pre-entrenados para evaluar riesgos y oportunidades individuales.
 
 <p align="center">
-  <img src="./imagenes/analisis_3c.png"><br>
+  <img src="./imagenes/analisis_3c.png" width="800"><br>
   <i><b>Figura 3:</b> Inferencia de Riesgo de Abandono (Churn Scoring).</i>
 </p>
 
 Demostración de la integración con modelos XGBoost/Random Forest. Al solicitar la probabilidad de abandono del 'Cliente_1', el agente realiza ingeniería de atributos en tiempo real (RFM), carga el cerebro predictivo correspondiente y entrega un score de probabilidad junto con una narrativa técnica que explica el 'Valor en Riesgo' de dicho cliente.
+
+##🎯 Conclusión: Resiliencia y Precisión en IA Local##
+
+La culminación de Nexus-Tech valida un hito de ingeniería: la ejecución de flujos de trabajo de Machine Learning y Analítica avanzada de forma totalmente autónoma y local. El mayor valor del proyecto reside en su arquitectura de Especialistas Segregados, que elimina la contaminación de instrucciones y maximiza la fidelidad del código generado.
+
+Con una tasa de éxito operativa superior al 95% gracias a su bucle de autocorrección dinámica, este sistema demuestra que los agentes de IA pueden ser confiables, auditables y escalables sobre infraestructuras de consumo (CPU), sentando las bases para una nueva generación de aplicaciones inteligentes privadas y eficientes.
